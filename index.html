@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>Kentaro Koyanagi - My Potfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/icon.jpg">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="https://Kentaro0709.github.io/MyPortfolio/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://Kentaro0709.github.io/MyPortfolio/main.js"></script>
+    <script src="https://Kentaro0709.github.io/MyPortfolio/jquery.inview.min.js"></script>
+  </head>
+  <body>
+    <header id="header">
+      <h1 class="site-title">My Portfolio</h1>
+      <nav id="navi">
+        <ul class="nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+    <main>
+      <div id="mainvisual">
+        <img src="img/mainvisual-pc.jpg" alt="Mainvisual">
+      </div>
+      <section id="about" class="wrapper">
+        <h2 class="sec-title">About</h2>
+        <div class="content">
+          <img src="img/about.jpg" alt="About">
+          <div class="text">
+            <h3 class="name">Kentaro Koyanagi</h3>
+            <p>
+              慶應義塾大学理工学部在学中。2021年10月からプログラミング学習を開始。
+              <br>
+              現在HTML,CSS,JavaScriptを用いたWebデザイン制作が可能。
+            </p>
+            <ul>
+              <li>ADRESS: 神奈川県横浜市</li>
+              <li class="contact">CONTACT: 
+                <a href="mailto:kentaro.emtk2015@icloud.com" class="email">kentaro.emtk2015@icloud.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="works" class="wrapper">
+        <h2 class="sec-title">Works</h2>
+        <ul>
+          <li>
+            <a href="https://kentaro0709.github.io/travelblog.github.io/"><img src="img/works1.jpg" alt="">
+            <h2>Travel Blog</h2>
+          </a>
+          </li>
+          <li>
+            <a href="https://kentaro0709.github.io/coffee.github.io/"><img src="img/works2.jpg" alt="">
+            <h2>COFFEE</h2>
+          </a>
+          </li>
+          <li>
+            <a href="https://kentaro0709.github.io/BBBEnglishSchool/"><img src="img/works3.jpg" alt="">
+            <h2>BBB英会話スクール</h2>
+          </a>
+          </li>
+          <li>
+            <a href="https://kentaro0709.github.io/LightHouse/"><img src="img/works4.jpg" alt="">
+            <h2>明るいHOUSE</h2>
+          </a>
+          </li>
+          <li>
+            <a href="https://kentaro0709.github.io/Sneakers/"><img src="img/works5.jpg" alt="">
+            <h2>Sneakers</h2>
+          </a>
+          </li>
+          <li>
+            <a href="https://kentaro0709.github.io/FAEXHIBITION/"><img src="img/works6.jpg" alt="">
+            <h2>FA EXHIBITION</h2>
+          </a>
+          </li>
+        </ul>
+      </section>
+      <section id="contact" class="wrapper">
+        <h2 class="sec-title">Contact</h2>
+        <form action="#" method="post">
+          <dl>
+            <dt><label for="name">NAME</label></dt>
+            <dd><input type="text" id="name" name="your-name"></dd>
+            <dt><label for="email">E-mail</label></dt>
+            <dd><input type="text" id="email" name="your-email"></dd>
+            <dt><label for="message">MESSAGE</label></dt>
+            <dd><textarea name="your-message" id="message"></textarea></dd>
+          </dl>
+          <div class="btn">
+            <input type="submit" value="送信">
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer id="footer">
+      <p>&copy; 2022 My Portfolio</p>
+    </footer>
+  </body>
+</html>
